@@ -1,0 +1,5 @@
+# Exclude macOS system files
+.DS_Store
+
+# Exclude script logs
+script.log

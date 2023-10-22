@@ -76,6 +76,12 @@ This document lists the names of the tools installed by the provided shell scrip
 - Zsh Syntax Highlighting
 - fnm (Node.js version manager)
 
-##### SSH Keys
+##### OPTIONALLY 
 
-- SSH Key generation
+- SSH Key generation:
+`ssh-keygen -t rsa -b 4096 -C "<mail>"`
+`pbcopy < ~/.ssh/id_rsa.pub`
+
+- Update vscode settings: 
+`mkdir -p ~/.vscode`
+`cp vscode/settings.json ~/.vscode/settings.json` 

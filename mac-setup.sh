@@ -62,19 +62,24 @@ echo 'eval $(fnm env --use-on-cd)' >> ~/.zshrc
 ssh-keygen -t rsa -b 4096 -C "veranikabarel@gmail.com"
 pbcopy < ~/.ssh/id_rsa.pub
 
-# Run the test script
-check_version() {
-    if command -v $1 &> /dev/null; then
-        $1 --version
-    else
-        echo "$1 is not installed or not found in the system."
-    fi
-}
+# Update vscode settings
+# cd .. 
+# mkdir -p ~/.vscode
+# cp vscode/settings.json ~/.vscode/settings.json
 
-check_version node
-check_version git 
-check_version yarn
-check_version fnm
-check_version zsh
-check_version npm
+# Run the test script
+# check_version() {
+#     if command -v $1 &> /dev/null; then
+#         $1 --version
+#     else
+#         echo "$1 is not installed or not found in the system."
+#     fi
+# }
+
+# check_version node
+# check_version git 
+# check_version yarn
+# check_version fnm
+# check_version zsh
+# check_version npm
 

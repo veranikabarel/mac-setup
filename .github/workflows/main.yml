@@ -11,7 +11,7 @@ on:
 jobs:
   install-tools:
     runs-on: macos-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     strategy:
       matrix:

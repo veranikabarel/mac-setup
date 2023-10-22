@@ -1,6 +1,6 @@
 This repository contains an installation script to set up a development environment on macOS using [Homebrew](https://brew.sh/). It installs a collection of essential development tools and applications, streamlining the process of setting up a new development environment.
 
-### Installation:
+## Installation:
 
 :point_right: You can use one-liner to run a script directly from GitHub repository. This command will fetch the mac-setup.sh script and execute it using bash:
 
@@ -17,26 +17,26 @@ This repository contains an installation script to set up a development environm
 - make the script executable:
 `chmod +x mac-setupe.sh`
 
-###### Run the script
+- run the script:
 `./mac-setup.sh`
 
 ### :question: Why `--cask`:
 
 The difference between using `--cask` and not using it in Homebrew is whether you are installing graphical applications or command-line utilities. Using --cask is typically reserved for installing GUI applications, while not using it is for command-line tools and libraries.
 
-# Installed Tools
+## Installed Tools
 
 This document lists the names of the tools installed by the provided shell script.
 
-## Homebrew
+##### Homebrew
 
 - [Homebrew](https://brew.sh/)
 
-## Browsers
+##### Browsers
 
 - Google Chrome
 
-## Dev Tools
+##### Dev Tools
 
 - Visual Studio Code
 - iTerm2
@@ -47,25 +47,25 @@ This document lists the names of the tools installed by the provided shell scrip
 - NordVPN
 - Flux
 
-## Window Manager
+##### Window Manager
 
 - Amethyst
 
-## Node.js
+##### Node.js
 
 - Node.js
 
-## Spotify
+##### Spotify
 
 - Spotify
 
-## Git
+##### Git
 
 - Git
 - Git Flow
 - GitHub CLI (gh)
 
-## Zsh
+##### Zsh
 
 - Zsh
 - Oh My Zsh (with various plugins)
@@ -76,6 +76,6 @@ This document lists the names of the tools installed by the provided shell scrip
 - Zsh Syntax Highlighting
 - fnm (Node.js version manager)
 
-## SSH Keys
+##### SSH Keys
 
 - SSH Key generation

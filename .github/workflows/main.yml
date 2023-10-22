@@ -11,10 +11,20 @@ on:
 jobs:
   install-tools:
     runs-on: macos-latest
+    timeout-minutes: 10
+
+    strategy:
+      matrix:
+        node-version: [18.15.0]
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
+
+    - name: Use node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
 
     - name: Run mac-setup script
       run: |

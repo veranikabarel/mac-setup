@@ -15,6 +15,9 @@ brew install --cask zoom
 brew install --cask nordpass
 brew install --cask nordvpn
 brew install --cask flux
+brew install --cask raycast
+brew install --cask shottr 
+brew install zellij
 
 # Install window manager
 brew install --cask amethyst

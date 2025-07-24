@@ -3,9 +3,6 @@
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install browsers
-brew install --cask google-chrome
-
 # Install dev tools
 brew install --cask visual-studio-code
 brew install --cask iterm2
@@ -20,7 +17,7 @@ brew install --cask shottr
 brew install zellij
 
 # Install window manager
-brew install --cask amethyst
+brew install --cask rectangle 
 
 # Install Node.js
 brew install node

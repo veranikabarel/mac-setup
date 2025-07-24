@@ -2,6 +2,14 @@ This repository contains an installation script to set up a development environm
 
 ## Installation:
 
+:question: If the macbook is totally new you will need to install Xcode before:
+
+`xcode-select --install`
+
+and homebrew:
+
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
 :point_right: You can use one-liner to run a script directly from GitHub repository. This command will fetch the mac-setup.sh script and execute it using bash:
 
 `curl -sLf https://raw.githubusercontent.com/veranikabarel/mac-setup/main/mac-setup.sh | bash`
